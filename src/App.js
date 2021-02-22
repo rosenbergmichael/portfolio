@@ -1,10 +1,13 @@
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import './App.css';
 
 function App() {
   return (
-    <div className="app">
-      App
-    </div>
+    <Router>
+      <div className="app">
+        App
+      </div>
+    </Router>
   );
 }
 
