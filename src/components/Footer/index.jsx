@@ -1,3 +1,5 @@
+ import './style.css';
+
 const Footer = () => {
   return <footer>
       <a 
@@ -15,7 +17,7 @@ const Footer = () => {
         target="_blank"
       >
       <img 
-        src={`${process.env.PUBLIC_URL}/GitHub-logo.png`}
+        src={`${process.env.PUBLIC_URL}/github-logo-4.png`}
         alt="GitHub-icon"
       />
       </a>

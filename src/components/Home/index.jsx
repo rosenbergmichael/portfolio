@@ -6,9 +6,8 @@ const Home = () => {
     <div className="home">
       <div className="title">
         <h1>
-          <p>Hi,</p>
-          <p>My name is Michael</p>
-          <p>I am a Software Engineer</p>
+          <p>Michael Rosenberg</p>
+          <p>Software Engineer</p>
         </h1>
         <Link to="about">
           <button>More Info</button>
