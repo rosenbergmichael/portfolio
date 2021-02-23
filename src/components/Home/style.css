@@ -28,3 +28,29 @@
   background-color: #3f71f4;
   font-family: 'Righteous', cursive;
 }
+
+.home .person {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.home .person img {
+  width: 30%;
+}
+
+@media (min-width: 800px) {
+  .home {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .home .title,
+  .home .person {
+    width: 50%;
+    margin-top: 0;
+    text-align: left;
+    font-size: 25px;
+  }
+  .home .person img {
+    width: 100%;
+  }
+}
