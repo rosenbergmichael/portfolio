@@ -4,7 +4,6 @@ const About = () => {
   return (
   <div className="about">
     <h1>About</h1>
-    <br/>
       <p>
         I'm a hungry and motivated full stack web developer with a business background, who thrives in a collaborative environment 
         where I can utilize my strong communication and problem solving skills. My previous role in the Customer Experience 
