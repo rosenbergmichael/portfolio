@@ -9,7 +9,7 @@ const Home = () => {
           <p>Michael Rosenberg</p>
           <p>Software Engineer</p>
         </h1>
-        <Link to="about">
+        <Link to="/about">
           <button>More Info</button>
         </Link>
       </div>
