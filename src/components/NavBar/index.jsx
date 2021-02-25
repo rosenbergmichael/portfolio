@@ -1,4 +1,5 @@
 import { Link } from  'react-router-dom'; 
+import './style.css'
 
 const NavBar = () => {
   return <nav className="navbar">
@@ -6,7 +7,7 @@ const NavBar = () => {
       <div className="logo">
         <Link to="/">
           <img 
-            src={`${process.env.PUBLIC_URL}/coding-icon.png`}
+            src={`${process.env.PUBLIC_URL}/coding-icon-2.png`}
             alt="brand"
           />
         </Link>
@@ -17,10 +18,10 @@ const NavBar = () => {
         src={`${process.env.PUBLIC_URL}/menu-bars-logo.png`}
         alt="Menu bars"
       />
-      {/* <img
-        src={`${process.env.PUBLIC_URL}/mr-logo.png`}
+      <img
+        src={`${process.env.PUBLIC_URL}/black-x.png`}
         alt="Menu cross"
-      /> */}
+      />
 
       <ul>
         <li>
