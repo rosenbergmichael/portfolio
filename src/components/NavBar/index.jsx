@@ -6,7 +6,7 @@ const NavBar = () => {
       <div className="logo">
         <Link to="/">
           <img 
-            src=""
+            src={`${process.env.PUBLIC_URL}/coding-icon.png`}
             alt="brand"
           />
         </Link>
@@ -38,10 +38,7 @@ const NavBar = () => {
         <li>
           <Link to="/contact">Contact</Link>
         </li> 
-
       </ul>  
-
-
 
     </div>  
   </nav>
