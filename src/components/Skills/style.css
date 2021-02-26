@@ -4,6 +4,7 @@
 
 .skills h1 {
   margin-bottom: 20px;
+  font-style: italic;
 }
 
 .content {
@@ -23,7 +24,6 @@
 }
 
 .content li {
-  margin: 0;
   margin-bottom: 10px;
 }
 
