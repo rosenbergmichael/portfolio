@@ -1,9 +1,25 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from  'react-router-dom'; 
 import './style.css'
 
 const NavBar = () => {
   const [open, setOpen] = useState(false);
+  const [screenWidth, setScreenWidth] = useState(0);
+
+  const trackScreenWidth = () => {
+    const width = window.innerWidth;
+    setScreenWidth(width);
+    if (width > 800) {
+      setOpen(true);
+    }
+  };
+
+  useEffect(() => {
+    trackScreenWidth();
+    window.addEventListener("resize", trackScreenWidth);
+    return () => window.removeEventListener("resize", trackScreenWidth);
+  }, []);
+
   return <nav className="navbar">
     <div className="nav-wrapper">
       <div className="logo">
