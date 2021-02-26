@@ -9,6 +9,7 @@ const Skills = () => {
             <strong>Languages:</strong>
             <li>Ruby on Rails</li>
             <li>JavaScript</li>
+            <li>SQL</li>
             <li>HTML</li>
             <li>CSS</li>
           </div>
@@ -16,12 +17,11 @@ const Skills = () => {
             <strong>Libraries:</strong>
             <li>React</li>
             <li>Redux</li>
+            <li>JQuery</li>
           </div>
           <div>
             <strong>Other:</strong>
             <li>Node.js</li>
-            <li>SQL</li>
-            <li>JQuery</li>
             <li>Github</li>
             <li>VS Code</li>
           </div>
