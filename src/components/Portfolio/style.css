@@ -1,0 +1,8 @@
+.portfolio {
+  flex-grow: 1;
+}
+
+.portfolio h1 {
+  margin-bottom: 20px; 
+  font-style: italic;
+}

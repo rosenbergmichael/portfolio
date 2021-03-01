@@ -4,7 +4,7 @@ const Portfolio = () => {
   return (
     <div className="portfolio">
       <h1>Projects</h1>
-      <br/>
+
         <h3>Calorease (Calorie counter app)</h3>
         <p>Rails API + React/Redux Frontend</p>
         <p>
