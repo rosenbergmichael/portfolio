@@ -12,10 +12,10 @@ const Contact = () => {
       tabIndex="0"
       ></iframe>
 
-      <h4>Phone</h4>
+      <h3>Phone</h3>
       <p>862-219-0320</p>
 
-      <h4>Email</h4>
+      <h3>Email</h3>
       <p>rosenbergmj1@gmail.com</p>
 
     </div>
