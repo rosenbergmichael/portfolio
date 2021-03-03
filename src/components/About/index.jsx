@@ -20,7 +20,7 @@ const About = () => {
       </p>
     <br/>
       <p>
-        In my spare time, you can find me: rooting on my favorite sports teams (New York Giants, New York Mets, New Jersey Devils
+        In my spare time, you can find me: rooting for my favorite sports teams (New York Giants, New York Mets, New Jersey Devils
         and Arsenal FC), enjoying new restaurants around NYC and exploring new countries around the world!
       </p>
   </div>
