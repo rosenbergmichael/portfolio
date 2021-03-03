@@ -41,7 +41,7 @@ const Portfolio = () => {
         <a 
         href="https://github.com/rosenbergmichael/VinoVault" 
         target="_blank"
-        >GitHub</a>|
+        >GitHub</a>| 
         <a 
         href="https://www.youtube.com/watch?v=Y2aeQL3zP6c&feature=youtu.be" 
         target="_blank"

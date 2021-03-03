@@ -7,3 +7,7 @@
   font-style: italic;
 }
 
+.about p {
+  font-family: 'Shippori Mincho', serif;
+  font-size: 20px;
+}
