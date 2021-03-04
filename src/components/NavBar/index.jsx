@@ -55,7 +55,7 @@ const NavBar = () => {
       <ul style={{ left: open ? "0" : "-100vw" }}>
         <li>
           <Link
-          style={{ color: location.pathname === "/" & "#4071f4" }}
+          style={{ color: location.pathname === "/" && "#4071f4" }}
           to="/"
           >
           Home
@@ -63,7 +63,7 @@ const NavBar = () => {
         </li>  
         <li>
           <Link 
-          style={{ color: location.pathname === "/about" & "#4071f4" }}
+          style={{ color: location.pathname === "/about" && "#4071f4" }}
           to="/about"
           >
           About
@@ -71,7 +71,7 @@ const NavBar = () => {
         </li> 
         <li>
           <Link 
-          style={{ color: location.pathname === "/skills" & "#4071f4" }}
+          style={{ color: location.pathname === "/skills" && "#4071f4" }}
           to="/skills"
           >
           Skills
@@ -79,7 +79,7 @@ const NavBar = () => {
         </li> 
         <li>
           <Link 
-          style={{ color: location.pathname === "/portfolio" & "#4071f4" }}
+          style={{ color: location.pathname === "/portfolio" && "#4071f4" }}
           to="/portfolio"
           >
           Portfolio
@@ -87,7 +87,7 @@ const NavBar = () => {
         </li> 
         <li>
           <Link 
-          style={{ color: location.pathname === "/contact" & "#4071f4" }}
+          style={{ color: location.pathname === "/contact" && "#4071f4" }}
           to="/contact"
           >
           Contact
