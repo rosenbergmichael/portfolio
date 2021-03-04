@@ -1,10 +1,11 @@
 import { useState, useEffect } from 'react';
-import { Link } from  'react-router-dom'; 
+import { Link, useLocation } from  'react-router-dom'; 
 import './style.css'
 
 const NavBar = () => {
   const [open, setOpen] = useState(false);
   const [screenWidth, setScreenWidth] = useState(0);
+  const location = useLocation();
 
   const trackScreenWidth = () => {
     const width = window.innerWidth;
@@ -53,19 +54,44 @@ const NavBar = () => {
 
       <ul style={{ left: open ? "0" : "-100vw" }}>
         <li>
-          <Link to="/">Home</Link>
+          <Link
+          style={{ color: location.pathname === "/" & "#4071f4" }}
+          to="/"
+          >
+          Home
+          </Link>
         </li>  
         <li>
-          <Link to="/about">About</Link>
+          <Link 
+          style={{ color: location.pathname === "/about" & "#4071f4" }}
+          to="/about"
+          >
+          About
+          </Link>
         </li> 
         <li>
-          <Link to="/skills">Skills</Link>
+          <Link 
+          style={{ color: location.pathname === "/skills" & "#4071f4" }}
+          to="/skills"
+          >
+          Skills
+          </Link>
         </li> 
         <li>
-          <Link to="/portfolio">Portfolio</Link>
+          <Link 
+          style={{ color: location.pathname === "/portfolio" & "#4071f4" }}
+          to="/portfolio"
+          >
+          Portfolio
+          </Link>
         </li> 
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link 
+          style={{ color: location.pathname === "/contact" & "#4071f4" }}
+          to="/contact"
+          >
+          Contact
+          </Link>
         </li> 
       </ul>  
 
