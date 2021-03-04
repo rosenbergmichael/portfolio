@@ -15,6 +15,12 @@ const NavBar = () => {
     }
   };
 
+  const handleClose = () => {
+    if (screenWidth < 800) {
+      setOpen(false);
+    }
+  }
+
   useEffect(() => {
     trackScreenWidth();
     window.addEventListener("resize", trackScreenWidth);
@@ -55,6 +61,7 @@ const NavBar = () => {
       <ul style={{ left: open ? "0" : "-100vw" }}>
         <li>
           <Link
+          onClick={handleClose} 
           style={{ color: location.pathname === "/" && "#4071f4" }}
           to="/"
           >
@@ -63,6 +70,7 @@ const NavBar = () => {
         </li>  
         <li>
           <Link 
+          onClick={handleClose}
           style={{ color: location.pathname === "/about" && "#4071f4" }}
           to="/about"
           >
@@ -71,6 +79,7 @@ const NavBar = () => {
         </li> 
         <li>
           <Link 
+          onClick={handleClose}
           style={{ color: location.pathname === "/skills" && "#4071f4" }}
           to="/skills"
           >
@@ -79,6 +88,7 @@ const NavBar = () => {
         </li> 
         <li>
           <Link 
+          onClick={handleClose}
           style={{ color: location.pathname === "/portfolio" && "#4071f4" }}
           to="/portfolio"
           >
@@ -87,6 +97,7 @@ const NavBar = () => {
         </li> 
         <li>
           <Link 
+          onClick={handleClose}
           style={{ color: location.pathname === "/contact" && "#4071f4" }}
           to="/contact"
           >
