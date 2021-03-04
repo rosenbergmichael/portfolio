@@ -8,6 +8,11 @@
   font-style: italic;
 }
 
+.portfolio h3 {
+  font-family: 'Shippori Mincho', serif;
+  font-weight: bolder;
+}
+
 .portfolio p {
   font-family: 'Shippori Mincho', serif;
 }

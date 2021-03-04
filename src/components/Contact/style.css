@@ -14,3 +14,8 @@
   height: 400px;
   margin-bottom: 15px;
 }
+
+.contact p {
+  font-family: 'Shippori Mincho', serif;
+  font-size: 20px;
+}
