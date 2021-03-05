@@ -27,7 +27,13 @@ const Skills = () => {
           </div>
         </div>
         <div className="logos">
-        <img src={`${process.env.PUBLIC_URL}/Medium-logo.png`} alt="Medium-icon" />
+        <img src={`${process.env.PUBLIC_URL}/rubylogo.png`} alt="Ruby-icon" />
+        <img src={`${process.env.PUBLIC_URL}/railslogo.png`} alt="Rails-icon" />
+        <img src={`${process.env.PUBLIC_URL}/jslogo.png`} alt="JavaScript-icon" />
+        <img src={`${process.env.PUBLIC_URL}/reactlogo.png`} alt="React-icon" />
+        <img src={`${process.env.PUBLIC_URL}/reduxlogo.png`} alt="Redux-icon" />
+        <img src={`${process.env.PUBLIC_URL}/htmllogo.png`} alt="HTML-icon" />
+        <img src={`${process.env.PUBLIC_URL}/csslogo.png`} alt="CSS-icon" />
         </div>
     </div>
   )
