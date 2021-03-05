@@ -26,6 +26,9 @@ const Skills = () => {
             <li>VS Code</li>
           </div>
         </div>
+        <div className="logos">
+        <img src={`${process.env.PUBLIC_URL}/Medium-logo.png`} alt="Medium-icon" />
+        </div>
     </div>
   )
 }
