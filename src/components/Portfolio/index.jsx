@@ -10,10 +10,10 @@ const Portfolio = () => {
         href="https://www.github.com/rosenbergmichael/calorease-client" 
         target="_blank"
         >GitHub</a>|
-        {/* <a 
-        href="" 
+        <a 
+        href="https://www.youtube.com/watch?v=MIcjdtJyul8" 
         target="_blank"
-        >Video Demo</a> */}
+        >Video Demo</a>
         <p>Rails API + React/Redux Frontend</p>
         <p>
           <li>Assembled multiple class and functional components for rendering user data to the DOM</li>
