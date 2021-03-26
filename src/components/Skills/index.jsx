@@ -27,11 +27,9 @@ const Skills = () => {
             <strong>Libraries:</strong>
             <li>React</li>
             <li>Redux</li>
-            <li>JQuery</li>
           </div>
           <div>
             <strong>Other:</strong>
-            <li>Node.js</li>
             <li>Github</li>
             <li>VS Code</li>
           </div>
