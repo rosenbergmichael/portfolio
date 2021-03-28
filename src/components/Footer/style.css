@@ -4,11 +4,16 @@ footer {
 }
 
 footer img {
-  max-width: 60px;
+  max-width: 50px;
   border-radius: 15px;
-  padding: 3px;
+  padding: 6px;
+  margin-right: 20px;
 }
 
 footer img:not(:last-child) {
   margin-right: 10px;
+}
+
+.footerImg {
+  margin-left: -60px;
 }

@@ -6,6 +6,7 @@ const Portfolio = () => {
       <h1>Projects</h1>
 
         <h3>Calorease (Calorie counter app)</h3>
+        <br/>
         <a 
         href="https://www.github.com/rosenbergmichael/calorease-client" 
         target="_blank"
@@ -22,6 +23,7 @@ const Portfolio = () => {
         </p>
         <br/>
         <h3>Best in Sports (Posts/ratings of the best moments in sports)</h3>
+        <br/>
         <a 
         href="https://github.com/rosenbergmichael/best_in_sports" 
         target="_blank"
@@ -38,6 +40,7 @@ const Portfolio = () => {
         </p>
         <br/>
         <h3>VinoVault (App for keeping track of favorite wines)</h3>
+        <br/>
         <a 
         href="https://github.com/rosenbergmichael/VinoVault" 
         target="_blank"

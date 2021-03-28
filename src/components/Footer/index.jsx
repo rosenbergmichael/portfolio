@@ -2,6 +2,7 @@
 
 const Footer = () => {
   return <footer>
+    <div class="footerImg">
       <a 
         href="https://www.linkedin.com/in/michael-j-rosenberg/" 
         target="_blank"
@@ -31,7 +32,7 @@ const Footer = () => {
         alt="Medium-icon"
       />
       </a>
-
+    </div>
   </footer>
   
 }
