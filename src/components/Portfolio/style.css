@@ -1,6 +1,7 @@
 .portfolio {
   flex-grow: 1;
   margin-bottom: 20px;
+  padding: 25px;
 }
 
 .portfolio h1 {

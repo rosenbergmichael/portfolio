@@ -1,5 +1,6 @@
 .skills {
   flex-grow: 1;
+  padding: 25px;
 }
 
 .skills h1 {

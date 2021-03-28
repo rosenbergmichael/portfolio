@@ -1,5 +1,6 @@
 .about {
   flex-grow: 1;
+  padding: 25px;
 }
 
 .about h1 {

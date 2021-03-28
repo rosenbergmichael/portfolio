@@ -14,7 +14,7 @@ const About = () => {
       </p>
     <br/>
       <p>
-        Currently a Ruby on Rails, JavaScript, React and Redux developer with a strong desire to add more programming 
+        Currently a JavaScript, React/Redux and Ruby on Rails developer with a strong desire to add more programming 
         languages to my toolbelt. I am excited to bring my skill set to a team where together we can solve problems and 
         create amazing digital products and services!
       </p>

@@ -1,6 +1,7 @@
 .contact {
   flex-grow: 1;
   margin-bottom: 20px;
+  padding: 25px;
 }
 
 .contact h1 {
