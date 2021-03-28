@@ -1,6 +1,7 @@
 .skills {
   flex-grow: 1;
   padding: 25px;
+  font-family: 'Shippori Mincho', serif;
 }
 
 .skills h1 {

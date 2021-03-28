@@ -9,9 +9,14 @@
   font-style: italic;
 }
 
-.portfolio h3 {
+.portfolio h2 {
   font-family: 'Shippori Mincho', serif;
   font-weight: bolder;
+  color: rgb(69, 109, 241);
+}
+
+.portfolio h4 {
+  font-family: 'Shippori Mincho', serif;
 }
 
 .portfolio p {
@@ -22,4 +27,13 @@
   text-decoration: none;
   font-weight: bold;
   font-family: 'Righteous', cursive;
+}
+
+.port-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+ 
+.port-app {
+  padding: 10px;
 }
