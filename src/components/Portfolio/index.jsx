@@ -26,6 +26,7 @@ const Portfolio = () => {
             <p>
               <li>Assembled multiple components for rendering data to the DOM and handling user interaction</li>
               <li>Used Redux for managing state, actions and reducer for controlling functionality</li>
+              <li>Styled UI with CSS</li>
             </p>
             <br/>
           </div>
@@ -50,13 +51,14 @@ const Portfolio = () => {
             <p>
               <li>Utilized OOJS (Object Oriented JavaScript) classes to encapsulate data and functionality</li>
               <li>DOM manipulation via selecting nodes and adding appropriate event listeners</li>
+              <li>Styled UI with Bootswatch and Font Awesome</li>
             </p>
             <br/>
           </div>
           <div className="port-app">
             <h2>Calorease</h2>
             <br/>
-            <img src={`${process.env.PUBLIC_URL}/CaloreaseScreenshot2.png`} alt="Calorease-Screenshot" />
+            <img src={`${process.env.PUBLIC_URL}/CaloreaseScreenshot.png`} alt="Calorease-Screenshot" />
             <br/>
             <h4>Calorie counter app</h4>
             <h4>Rails API + React/Redux + CSS</h4>
