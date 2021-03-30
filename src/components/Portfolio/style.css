@@ -37,3 +37,8 @@
 .port-app {
   padding: 10px;
 }
+
+.port-app img {
+  max-width: 500px;
+  max-height: 500px;;
+}
