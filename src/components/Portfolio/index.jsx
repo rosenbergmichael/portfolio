@@ -11,16 +11,16 @@ const Portfolio = () => {
             <img src={`${process.env.PUBLIC_URL}/ShopVintScreenshot.png`} alt="ShopVint-Screenshot" />
             <br/>
             <h4>E-commerce shopping cart app</h4>
-            <p>React/Redux + CSS</p>
+            <h4>React/Redux + CSS</h4>
             <br/>
             <a 
             href="https://github.com/rosenbergmichael/react-redux-shoppingcart" 
             target="_blank"
-            >GitHub</a>|
+            >GitHub</a> | 
             <a 
             href="https://shopvint.netlify.app/" 
             target="_blank"
-            >Demo</a>
+            > Demo</a>
             <br/>
             <br/>
             <p>
@@ -35,16 +35,16 @@ const Portfolio = () => {
             <img src={`${process.env.PUBLIC_URL}/MoviesUpNextScreenshot.png`} alt="MoviesUpNext-Screenshot" />
             <br/>
             <h4>App for keeping track of new movie releases</h4>
-            <p>SPA, JS + Bootstrap</p>
+            <h4>SPA, JavaScript + Bootstrap</h4>
             <br/>
             <a 
             href="https://github.com/rosenbergmichael/movies-up-next" 
             target="_blank"
-            >GitHub</a>|
+            >GitHub</a> |
             <a 
             href="https://moviesupnext.netlify.app/" 
             target="_blank"
-            >Demo</a>
+            > Demo</a>
             <br/>
             <br/>
             <p>
@@ -56,19 +56,19 @@ const Portfolio = () => {
           <div className="port-app">
             <h2>Calorease</h2>
             <br/>
-            <img src={`${process.env.PUBLIC_URL}/CaloreaseScreenshot.png`} alt="Calorease-Screenshot" />
+            <img src={`${process.env.PUBLIC_URL}/CaloreaseScreenshot2.png`} alt="Calorease-Screenshot" />
             <br/>
             <h4>Calorie counter app</h4>
-            <p>Rails API + React/Redux</p>
+            <h4>Rails API + React/Redux + CSS</h4>
             <br/>
             <a 
             href="https://www.github.com/rosenbergmichael/calorease-client" 
             target="_blank"
-            >GitHub</a>|
+            >GitHub</a> |
             <a 
             href="https://www.youtube.com/watch?v=MIcjdtJyul8" 
             target="_blank"
-            >Video Demo</a>
+            > Video Demo</a>
             <br/>
             <br/>
             <p>
@@ -84,16 +84,16 @@ const Portfolio = () => {
             <img src={`${process.env.PUBLIC_URL}/BestInSportsScreenshot.png`} alt="BestInSports-Screenshot" />
             <br/>
             <h4>Posts/ratings of the best moments in sports</h4>
-            <p>SPA, Rails API + JS</p>
+            <h4>SPA, Rails API + JS + CSS</h4>
             <br/>
             <a 
             href="https://github.com/rosenbergmichael/best_in_sports" 
             target="_blank"
-            >GitHub</a>|
+            >GitHub</a> |
             <a 
             href="https://www.youtube.com/watch?v=zuNIaw0_vXk&feature=youtu.be" 
             target="_blank"
-            >Video Demo</a>
+            > Video Demo</a>
             <br/>
             <br/>
             <p>
@@ -109,16 +109,16 @@ const Portfolio = () => {
             <img src={`${process.env.PUBLIC_URL}/VinoVaultScreenshot.png`} alt="VinoVault-Screenshot" />
             <br/>
             <h4>App for keeping track of favorite wines</h4>
-            <p>Ruby on Rails + HTML/CSS</p>
+            <h4>Ruby on Rails + HTML/CSS</h4>
             <br/>
             <a 
             href="https://github.com/rosenbergmichael/VinoVault" 
             target="_blank"
-            >GitHub</a>| 
+            >GitHub</a> | 
             <a 
             href="https://www.youtube.com/watch?v=Y2aeQL3zP6c&feature=youtu.be" 
             target="_blank"
-            >Video Demo</a>
+            > Video Demo</a>
             <br/>
             <br/>
             <p>

@@ -14,6 +14,7 @@ const Skills = () => {
         <img src={`${process.env.PUBLIC_URL}/csslogo.png`} alt="CSS-icon" />
         </div>
         <br/>
+        <br/>
         <div className="content">
           <div>
             <strong>Languages:</strong>
@@ -30,6 +31,7 @@ const Skills = () => {
           </div>
           <div>
             <strong>Other:</strong>
+            <li>Bootstrap</li>
             <li>Github</li>
             <li>VS Code</li>
           </div>
