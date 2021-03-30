@@ -9,7 +9,9 @@ To use this app:
 
 -Clone repo
 
--Run 'open index.html'
+-Run bundle i
+
+-Run npm start
 
 
 ## Contributing
