@@ -5,7 +5,7 @@ const Contact = () => {
     <div className="contact">
       <h1>Say hi!</h1>
       <iframe 
-      src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=40.748700,%20-73.937880+(Home)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" 
+      src="<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d195600.53373263168!2d-75.25811227840332!3d40.002676681510046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6b7d8d4b54beb%3A0x89f514d88c3e58c1!2sPhiladelphia%2C%20PA!5e0!3m2!1sen!2sus!4v1675194323919!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" 
       frameborder="0"
       allowFullScreen=""
       aria-hidden="false"
